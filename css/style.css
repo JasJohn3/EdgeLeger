@@ -232,3 +232,16 @@ padding: 30px;
   }
 
 }
+@media(max-width:412px) and (max-width:732px){
+  .navbar{
+    height: 30vh;
+  }
+}
+@media(max-width:321px){
+  .navbar{
+    height: 36vh;
+  }
+  .content h1{
+    margin-top: 40vh;
+  }
+}
