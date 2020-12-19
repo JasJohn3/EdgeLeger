@@ -236,6 +236,17 @@ padding: 30px;
   .navbar{
     height: 30vh;
   }
+  .content h1{
+    margin-top: 10vh;
+  }
+}
+@media(max-width:415px) and (max-width:737px){
+  .navbar{
+    height: 30vh;
+  }
+  .content h1{
+    margin-top: 10vh;
+  }
 }
 @media(max-width:321px){
   .navbar{
