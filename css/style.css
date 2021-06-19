@@ -41,6 +41,21 @@ p{
 img{
   width: 100%;
 }
+/* Important CSS Tricks(1) */
+/* Settings to allow for flexbox to be responsive and ul,li elements to fill whitespace */
+nav{
+  height: 100%;
+}
+.navbar ul{
+  height: 100%;
+}
+.navbar li{
+  height: 100%;
+}
+/* Settings to allow for flexbox to be responsive and ul,li elements to fill whitespace */
+/* Important CSS Tricks(1) */
+
+
 /* Navbar Styling */
 
 .navbar{
@@ -52,24 +67,24 @@ img{
   opacity: 0.8;
   width: 100%;
   height: 10vh;
+  /* Important CSS Tricks(2) */
+  /* Creates a fixed Navbar while scrolling for easy navigation */
   position: fixed;
   top: 0;
+    /* Creates a fixed Navbar while scrolling for easy navigation */
+    /* Important CSS Tricks(2) */
   padding: 0 2vw;
 }
-nav{
-  height: 100%;
-}
-.navbar ul{
-  height: 100%;
-}
-.navbar li{
-  height: 100%;
-}
+
 .navbar a{
+  /* Important CSS Tricks(1) */
+  /* when all ul and li content fits space flexbox allows content to align center */
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  /* when all ul and li content fits space flexbox allows content to align center */
+  /* Important CSS Tricks(1) */
   color: var(--white);
   padding: .5vw 1vw;
   margin: 0 auto;
