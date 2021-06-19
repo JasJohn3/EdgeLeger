@@ -43,15 +43,10 @@ img{
 }
 /* Important CSS Tricks(1) */
 /* Settings to allow for flexbox to be responsive and ul,li elements to fill whitespace */
-nav{
+nav, nav ul, nav li{
   height: 100%;
 }
-.navbar ul{
-  height: 100%;
-}
-.navbar li{
-  height: 100%;
-}
+
 /* Settings to allow for flexbox to be responsive and ul,li elements to fill whitespace */
 /* Important CSS Tricks(1) */
 
@@ -98,5 +93,4 @@ nav{
 .navbar ul{
   display: flex;
   justify-content: space-evenly;
-  
 }
