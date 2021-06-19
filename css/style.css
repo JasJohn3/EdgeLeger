@@ -46,8 +46,6 @@ img{
 nav, nav ul, nav li{
   height: 100%;
 }
-
-/* Settings to allow for flexbox to be responsive and ul,li elements to fill whitespace */
 /* Important CSS Tricks(1) */
 
 
@@ -66,7 +64,6 @@ nav, nav ul, nav li{
   /* Creates a fixed Navbar while scrolling for easy navigation */
   position: fixed;
   top: 0;
-    /* Creates a fixed Navbar while scrolling for easy navigation */
     /* Important CSS Tricks(2) */
   padding: 0 2vw;
 }
@@ -78,14 +75,13 @@ nav, nav ul, nav li{
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  /* when all ul and li content fits space flexbox allows content to align center */
   /* Important CSS Tricks(1) */
   color: var(--white);
   padding: .5vw 1vw;
   margin: 0 auto;
 }
 .navbar a:hover{
-  border-bottom: 2px solid var(--text-primary);
+  box-shadow: 1px 1px 4px black;
   background-color: var(--text-primary);
   text-shadow: 1px 1px 4px black;
 }
@@ -93,4 +89,15 @@ nav, nav ul, nav li{
 .navbar ul{
   display: flex;
   justify-content: space-evenly;
+}
+
+@media only screen and (max-width:600px){
+  .navbar{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:400px){
+  .navbar{
+    height: 15vh;
+  }
 }
