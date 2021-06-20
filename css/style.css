@@ -5,6 +5,8 @@
   --text-primary: #28a745;
   --text-secondary:#0284d0;
   --light:#f4f4f4;
+  --dark-blue:#000733;
+  --chevron-yellow:#FFCB05;
 }
 
 *{
@@ -167,7 +169,7 @@ nav, nav ul, nav li{
 @media only screen and (max-width:400px){
   /* Navbar Styling */
   .navbar{
-    height: 15vh;
+    height: 20vh;
   }
   /* Navbar Styling */
 }
