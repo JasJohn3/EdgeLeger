@@ -4,6 +4,7 @@
   --white:#fff;
   --text-primary: #28a745;
   --text-secondary:#0284d0;
+  --light:#f4f4f4;
 }
 
 *{
@@ -89,6 +90,9 @@ nav, nav ul, nav li{
 .navbar ul{
   display: flex;
   justify-content: space-evenly;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 /* Navbar Styling */
 
@@ -136,7 +140,23 @@ nav, nav ul, nav li{
   z-index: 10;
 }
 /* Header/Hero Styling */
+/* About Section Styling */
+.icons{
+  padding: 30px;
+}
 
+.icons h3{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.icons i{
+  background-color: var(--text-primary);
+  border-radius: 50%;
+  color: var(--white);
+  padding: 1rem;
+}
+/* About Section Styling */
 @media only screen and (max-width:600px){
   /* Navbar Styling */
   .navbar{
